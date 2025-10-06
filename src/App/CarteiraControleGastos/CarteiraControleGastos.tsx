@@ -273,7 +273,7 @@ const CarteiraControleGastos: React.FC = () => {
                 e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.1)';
               }}
               onClick={() => {
-                window.location.href = '/nova-carteira';
+                navigate('/nova-carteira');
               }}
               >
                 {/* Ícone + */}
@@ -1010,5 +1010,6 @@ const CarteiraControleGastos: React.FC = () => {
     </>
   );
 };
+
 
 export default CarteiraControleGastos;
